@@ -41,3 +41,52 @@ body{
         height:45px;
     }
 }
+
+.load{
+    color: #5d54a4;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    float: left;
+    position: relative;
+    left:660px;
+    top:200px;
+}
+
+
+@keyframes mymove {
+    0%   {top: 100px; }
+    25%  {top: 200px; }
+    50%  {top: 100px; }
+    75%  {top: 200px; }
+    100% {top: 100px; }
+}
+
+#l{
+    animation: mymove 5.3s infinite;
+}
+
+#o{
+    animation: mymove 5.2s infinite;
+}
+
+#a{
+    animation: mymove 5.3s infinite;
+}
+
+#d{
+    animation: mymove 5.4s infinite;
+
+}
+
+#i{
+    animation: mymove 5.5s infinite;
+}
+
+#n{
+    animation: mymove 5.6s infinite;
+}
+
+#g{
+    animation: mymove 5.7s infinite;
+}
