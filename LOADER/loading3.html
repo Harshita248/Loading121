@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style3.css">
+	</head>
+	<body onload="myFunction()" style="margin:0;">
+		<h4 id="l">Loading...</h4>
+		<div id="loader"></div>
+		<div style="display:none;" id="myDiv" class="animate-bottom">
+			<h2>Loaded page!</h2>
+		</div>
+
+		<script>
+			var myVar;
+
+			function myFunction()
+			{
+				myVar = setTimeout(showPage, 3000);
+			}
+
+			function showPage()
+			{
+				document.getElementById("loader").style.display = "none";
+				document.getElementById("l").style.display = "none";
+				document.getElementById("myDiv").style.display = "block";
+			}
+		</script>
+
+	</body>
+</html>
