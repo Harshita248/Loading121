@@ -1,2 +1,2 @@
 # Loading121 🌌
-### various loading pages in one repo
+### This repo contains various LOADING pages or loader with new styling.
